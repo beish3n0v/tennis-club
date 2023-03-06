@@ -1,0 +1,9 @@
+// style - reset and others
+@import 'main/reset';
+@import 'main/global';
+@import 'main/mixins';
+
+// sections
+@import 'header';
+@import 'main';
+@import 'footer';

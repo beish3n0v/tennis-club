@@ -1,0 +1,9 @@
+// club-info, style reset and others
+@import 'main/reset';
+@import 'main/mixins';
+@import 'main/global';
+
+//sections
+@import 'sections/header';
+@import 'sections/main';
+@import 'sections/footer';

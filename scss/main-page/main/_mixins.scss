@@ -1,0 +1,36 @@
+// mixins
+
+@mixin text-preset_sm {
+	line-height: 21px;
+	color: $text-color;
+}
+
+@mixin text-preset_md {
+	font-size: 21px;
+	font-weight: 500;
+	line-height: 29.4px;
+}
+
+@mixin toggle-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+	background-color: $color-purple;
+	&:hover {
+		background-color: rgb(130, 122, 204);
+		transition: background-color, background, 0.1s ease-in-out;
+	}
+	&:active {
+		background: rgb(104, 95, 185);
+	}
+}
+
+@mixin button {
+	padding: 10px 20px;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 25px;
+	color: rgb(255, 255, 255);
+	background-color: $color-purple;
+}
