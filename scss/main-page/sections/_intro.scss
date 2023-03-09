@@ -1,7 +1,8 @@
 // intro
 .intro {
-	background: url(/img/main-intro-bg.jpg) no-repeat;
+	background-image: url(../../../img/main-intro-bg.jpg);
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 .intro__content {
 	padding-top: 21.85em;
